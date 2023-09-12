@@ -27,8 +27,6 @@ public class Main {
     
     return counts;
   }
-   
-  }
 
   static void testBucketingByHealth() {
     System.out.println("Counting batteries by SoH...\n");
