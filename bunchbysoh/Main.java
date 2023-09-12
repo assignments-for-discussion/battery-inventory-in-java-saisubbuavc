@@ -5,6 +5,9 @@ public class Main {
     public int healthy = 0;
     public int exchange = 0;
     public int failed = 0;
+     CountsBySoH() {
+        }
+     
   };
 
   static CountsBySoH countBatteriesByHealth(int[] presentCapacities) {
@@ -31,6 +34,9 @@ public class Main {
     assert(counts.exchange == 3);
     assert(counts.failed == 1);
     System.out.println("Done counting :)\n");
+    System.out.println("Healthy: " + counts.healthy);
+    System.out.println("Exchange: " + counts.exchange);
+    System.out.println("Failed: " + counts.failed);
   }
 
   public static void main(String[] args) {
